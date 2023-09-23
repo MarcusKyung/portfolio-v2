@@ -7,6 +7,17 @@ body {
   font-style: normal;
 }
 
+.navbar--active-content:hover,
+.contact-section--heading:hover,
+.sections--heading:hover,
+.section--heading:hover,
+.skills--section--heading:hover,
+.skills-section--heading:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+
 h1,
 h2,
 h3,
@@ -21,7 +32,7 @@ p {
   --primary: #5e3bee;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
-  --github: #e62872;
+  --github: #5e3bee;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
@@ -154,7 +165,7 @@ h3 {
   align-items: flex-start;
 }
 
-/* Portfolio, Testimonial & Contact Me */
+/* Portfolio, Experience & Contact Me */
 .subtitle--{
   color: var(--heading-color);
   font-size: 16px; 
@@ -389,7 +400,6 @@ h3 {
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -412,13 +422,24 @@ h3 {
   padding-bottom: 10.6px;
   font-weight: 600;
 }
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
+/* .portfolio--section--card:hover path {
+  stroke: var(--primary);
+} */
+
+.link--container {
+  display: flex;
+  gap: 30px;
+}
+
+a:-webkit-any-link {
+  color: inherit; 
+  cursor: pointer; 
+  text-decoration: none; 
 }
 /* Portfolio Ends */
 
-/* Testimonial Styling Start */
-.testimonial--section {
+/* Experience Styling Start */
+.Experience--section {
   display: flex;
   padding: 112px 84.3px;
   flex-direction: column;
@@ -431,7 +452,7 @@ h3 {
   color: var(--heading-color)
 }
 
-.testimonial--section--card {
+.Experience--section--card {
   display: flex;
   padding: 42.6px;
   flex-direction: column;
@@ -442,31 +463,35 @@ h3 {
   border: 1.33px solid #006b6a;
 }
 
-.testimonial--section--card--reviews {
+.Experience--section--card--reviews {
   display: flex;
   align-items: flex-start;
   gap: 5.33px; 
 }
 
-.testimonial--section--card--author--detail {
+.Experience--section--card--author--detail {
   display: flex;
   align-items: center;
   gap: 21.3px;
 }
 
-.testimonial--author--name {
+.Experience--author--name {
   font-weight: 600;
   color: var(--heading-color);
 }
 
-.testimonial--author--designation {
+.Experience--author--designation {
   color: var(--darkblue);
   font-size: 16px;
   font-weight: 400;
   line-height: 150%
 }
 
-/* Testimonial Section Styling End */
+.Experience--section--card:hover {
+  border-bottom: 4px solid var(--primary);
+}
+
+/* Experience Section Styling End */
 
 /* Contact Section Styling Start */
 .contact--section {
@@ -563,6 +588,7 @@ input[type="checkbox"] {
   align-items: flex-start;
   gap: 42.667px;
   text-decoration: none;
+  cursor: pointer;
 }
 .footer--items ul > li > a {
   text-decoration: none;
@@ -665,7 +691,7 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .skills--section,
-  .testimonial--section,
+  .Experience--section,
   .contact--section,
   .footer--container {
     gap: 20px;
@@ -677,7 +703,7 @@ input[type="checkbox"] {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .testimonial--section--card {
+  .Experience--section--card {
     padding: 25px;
   }
   .hero--section--title,
