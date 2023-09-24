@@ -36,7 +36,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
+      <Link spy={true} smooth={true} offset={-70} duration={500} to="heroSection">
         <img src="./img/logo.svg" alt="Logoipsum" />
+      </Link>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -52,13 +54,16 @@ function Navbar() {
             <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">Home</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content"> Portfolio </Link>
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar--content">About Me</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar--content"> About Me </Link>
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="mySkills" className="navbar--content">My Skills</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="testimonial" className="navbar--content"> Testimonials </Link>
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Portfolio</Link>
+          </li>
+          <li>
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Experience" className="navbar--content">Experience</Link>
           </li>
         </ul>
       </div>
