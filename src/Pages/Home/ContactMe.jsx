@@ -1,50 +1,53 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function ContactMe() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_4s64ztb', 'contact_form', form.current, 'FB9gmJn6k-wb7HmH9')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
-        <p className="text-lg">LOREM IPSUM</p>
+        {/* <p className="sub--title">Get In Touch</p> */}
+        <h2 className="contact-section--heading">Contact Me</h2>
       </div>
-      <form className="contact--form--container">
+      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First name</span>
-            <input type="text" className="contact--input text-md" name="first-name" id="first-name" required/>
+            <span className="text-md">First Name</span>
+            <input type="text" autoComplete="on" className="contact--input text-md" name="first_name" id="first-name" required/>
           </label>
           <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last name</span>
-            <input type="text" className="contact--input text-md" name="last-name" id="last-name" required/>
+            <span className="text-md">Last Name</span>
+            <input type="text" autoComplete="on" className="contact--input text-md" name="last_name" id="last-name" required/>
           </label>
           <label htmlFor="email" className="contact--label">
             <span className="text-md">Email</span>
-            <input type="email" className="contact--input text-md" name="email" id="email" required/>
+            <input type="email" autoComplete="on" className="contact--input text-md" name="user_email" id="email" required/>
           </label>
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">Email</span>
-            <input type="number" className="contact--input text-md" name="phone-number" id="phone-number" required/>
+          <label htmlFor="subject" className="contact--label">
+            <span className="text-md">Subject</span>
+            <input type="text" autoComplete="on" className="contact--input text-md" name="subject" id="subject" required/>
           </label>
         </div>
-        <label htmlFor="choose-topic" className="contact--label">
-            <span className="text-md">Choose a Topic</span>
-            <select id="choose-topic" className="contact--input text-md">
-              <option>Select One...</option>
-              <option>Item 1</option>
-              <option>Item 2</option>
-              <option>Item 3</option>
-            </select>
-          </label>
-          <label htmlFor="message" className="contact--label">
-            <span className="text-md">Message</span>
-            <textarea className="contact--input text-md" id="message" rows="8" placeholder="Type your message"/>
-          </label>
-          <label htmlFor="checkbox" className="checkbox-label">
-            <input type="checkbox" required name="checkbox"/>
-            <span className="text-sm">I accept the terms</span>
-          </label>
-          <div>
-            <button className="btn btn-primary contact--form--btn">Submit</button>
-          </div>
+        <label htmlFor="message" className="contact--label">
+          <span className="text-md">Message</span>
+          <textarea autoComplete="off" className="contact--input text-md" name="message" id="message" rows="8"/>
+        </label>
+        <div>
+          <button value="Send" type="submit" className="btn btn-primary contact--form--btn">Submit</button>
+        </div>
       </form>
     </section>
   )
