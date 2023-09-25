@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/p1.png",
       "title": "Fit-Ledger",
       "description": "Fitness and health tracker developed using React.js, Firebase, and Material UI components.",
       "link": "https://github.com/MarcusKyung/FitLedger",
@@ -36,18 +36,18 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/p2.png",
       "title": "BrewFinder",
-      "description": "Chrome extension that locates nearest beer on tap. Also allows user to search for breweries by city using the OpenBreweryDB API",
+      "description": "Chrome extension that locates nearest beer on tap to user. Also allows for search by city using the OpenBreweryDB API.",
       "link": "https://github.com/MarcusKyung/brewfinder-extension",
       "live": "https://chrome.google.com/webstore/detail/brewfinder/fkpeaflfbnlccciohmbeejiihnmkkcjm/"
 
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/p3.png",
       "title": "MarcusKyung.com",
-      "description": "A personal portfolio website developed using React.js and published on Netlify",
+      "description": "This website, a personal portfolio developed using React.js, CSS, Email.js, and published on Netlify.",
       "link": "https://github.com/MarcusKyung/portfolio-v2",
       "live": "MarcusKyung.com"
     }
@@ -55,7 +55,7 @@
   "portfolio2": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/p4.png",
       "title": "C# TwitterBot",
       "description": "Fitness and health tracker developed using React.js, Firebase, and Material UI components.",
       "link": "https://github.com/MarcusKyung/FitLedger",
@@ -63,19 +63,17 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/p5.png",
       "title": "F1 API",
-      "description": "Chrome extension that locates nearest beer on tap. Also allows user to search for breweries by city using the OpenBreweryDB API",
-      "link": "https://github.com/MarcusKyung/brewfinder-extension",
-      "live": "https://chrome.google.com/webstore/detail/brewfinder/fkpeaflfbnlccciohmbeejiihnmkkcjm/"
+      "description": "A C# full CRUD Formula 1 themed API with information on 2023 drivers and teams.",
+      "link": "https://github.com/MarcusKyung/brewfinder-extension"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/p6.png",
       "title": "Discord Bot",
-      "description": "A personal portfolio website developed using React.js and published on Netlify",
-      "link": "https://github.com/MarcusKyung/portfolio-v2",
-      "live": "MarcusKyung.com"
+      "description": "A Valtteri Bottas themed discord bot designed to interact with users when prompted",
+      "link": "https://github.com/MarcusKyung/Valtteri-BOTtas"
     }
   ],
   "experience": [
@@ -112,21 +110,18 @@
     {
       "id": "1",
       "src": "./img/6.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "company_name": "University of San Diego (2013-2017)",
       "title": "BBA: Marketing/Real Estate"
     },
     {
       "id": "2",
       "src": "./img/7.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "company_name": "Epicodus, C#/React (2023)",
       "title": "Certificate: Web and Mobile Development"
     },
     {
       "id": "3",
       "src": "./img/8.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "company_name": "edX/Harvard University (2023)",
       "title": "CS50 Online"
     }
