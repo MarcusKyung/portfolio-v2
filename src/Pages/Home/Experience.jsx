@@ -8,7 +8,13 @@ export default function Experience() {
           {/* <p className="sub--title">September 2023</p> */}
           <h2 className="sections--heading">Experience & Education</h2>
         </div>
+        <div>
+          <a href="https://drive.google.com/file/d/1KgSMv5xuSpI5N-ZVunyz19iWZp0WBV93/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <button className="btn btn-github">View My Resume</button>
+          </a>
+        </div>
       </div>
+
       <div className="portfolio--section--container">
         {data?.experience?.map((item, index) => (
           <div key={index} className="Experience--section--card">
@@ -23,7 +29,7 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-            <p className="text-md">{item.description}</p>
+            {/* <p className="text-md">{item.description}</p> */}
           </div>
         ))}
       </div>
@@ -41,7 +47,6 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-            <p className="text-md">{item.description}</p>
           </div>
         ))}
       </div>
