@@ -57,22 +57,22 @@
       "id": "1",
       "src": "./img/p4.png",
       "title": "C# TwitterBot",
-      "description": "Fitness and health tracker developed using React.js, Firebase, and Material UI components.",
+      "description": "Collaboratively developed C# twitterbot designed to tweet Gandalf's quotes from Lord of the Rings.",
       "link": "https://github.com/MarcusKyung/FitLedger",
       "live": "https://fit-ledger.web.app/"
     },
     {
       "id": "2",
-      "src": "./img/p5.png",
+      "src": "./img/p6.png",
       "title": "F1 API",
       "description": "A C# full CRUD Formula 1 themed API with information on 2023 drivers and teams.",
       "link": "https://github.com/MarcusKyung/brewfinder-extension"
     },
     {
       "id": "3",
-      "src": "./img/p6.png",
+      "src": "./img/p5.png",
       "title": "Discord Bot",
-      "description": "A Valtteri Bottas themed discord bot designed to interact with users when prompted",
+      "description": "A Valtteri Bottas themed discord bot designed to interact with users when prompted.",
       "link": "https://github.com/MarcusKyung/Valtteri-BOTtas"
     }
   ],
@@ -80,7 +80,7 @@
     {
       "id": "1",
       "src": "./img/1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Utilized a suite of data analytics tools to design and implment long term SEO campaigns for small to midsize eCommerce clients, achieving up to triple digit site traffic gains. Collaborated daily with PMs, management, and senior analysts to track and report site metrics to clients.",
       "company_name": "Radd Interactive",
       "title": "Content Writer Intern > Advanced SEO Analyst"
     },
@@ -103,7 +103,7 @@
       "src": "./img/4.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "company_name": "Opine",
-      "title": "Software Engineering Intern"
+      "title": "Software Engineering Intern (Current)"
     }
   ],
   "education": [
@@ -111,19 +111,22 @@
       "id": "1",
       "src": "./img/6.png",
       "company_name": "University of San Diego (2013-2017)",
-      "title": "BBA: Marketing/Real Estate"
+      "title": "BBA: Marketing/Real Estate",
+      "description": "Four year merit scholarship recipiant and graduate from the University of San Diego with a BBA double major in Marketing and Real Estate."
     },
     {
       "id": "2",
       "src": "./img/7.png",
       "company_name": "Epicodus, C#/React (2023)",
-      "title": "Certificate: Web and Mobile Development"
+      "title": "Certificate: Web and Mobile Development",
+      "description": "Completed 27-week full time intensive coding bootcamp requiring 800+ classroom hours and strong focus on pair programming/debugging."
     },
     {
       "id": "3",
       "src": "./img/8.png",
       "company_name": "edX/Harvard University (2023)",
-      "title": "CS50 Online"
+      "title": "CS50 Online",
+      "description": "Working through Harvard's free online CS50 introduction to programming course. Currently learning about data structures and algorithms and writing code in C."
     }
   ]
 }
