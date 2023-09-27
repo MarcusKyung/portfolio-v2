@@ -22,7 +22,9 @@ export default function HeroSection() {
           </h1>
           <br />
         </div>
-        <Link spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-primary">Contact Me</Link>
+        <div>
+          <Link spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-primary">Contact Me</Link>
+        </div>
       </div>
       <div className="hero--section--img">
         <img src="/img/hero_img.png" alt="hero-img" />
