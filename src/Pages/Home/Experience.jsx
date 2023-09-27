@@ -29,7 +29,13 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-            {/* <p className="text-md">{item.description}</p> */}
+            {/* <div className="experience--description-container">
+              {item.description.split('\n').map((text, idx) => (
+                <p className="text-md" key={idx}>
+                  {text}
+                </p>
+              ))}
+            </div> */}
           </div>
         ))}
       </div>
@@ -47,6 +53,7 @@ export default function Experience() {
                 </p>
               </div>
             </div>
+            <p className="text-md">{item.description}</p>
           </div>
         ))}
       </div>
