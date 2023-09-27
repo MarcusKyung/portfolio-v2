@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm Marcus</p>
+          <p className="section--title">Hey, I'm Marcus!</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color typewriter--effect">
             <Typewriter
@@ -23,11 +23,10 @@ export default function HeroSection() {
           <br />
         </div>
         <div>
-          <Link spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-primary">Contact Me</Link>
         </div>
       </div>
       <div className="hero--section--img">
-        <img src="/img/hero_img.png" alt="hero-img" />
+        <img src="/img/heroimage.png" alt="hero-img" />
       </div>
     </section>
   )
