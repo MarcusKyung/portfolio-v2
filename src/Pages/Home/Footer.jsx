@@ -66,7 +66,7 @@ function Footer() {
             </li>
             <li>
               <a href="https://github.com/MarcusKyung#what-im-reading-this-month" className="navbar--content" target="_blank" rel="noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M4 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v20l-8-4-8 4V2z"/>
               </svg>
               </a>
