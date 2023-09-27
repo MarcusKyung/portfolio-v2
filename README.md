@@ -49,7 +49,7 @@
 A personal portfolio website designed using React.js, CSS, and Email.js. This website is intended to display my professional skills and experience to potential employers and clients. The website is designed to be responsive and mobile-friendly.
 
 ## Setup/Installation Requirements:
-### View Online: View online at https://www.marcuskyung.com
+### View Online: View online at marcuskyung.com
 
 ### Run Locally:
 1. Clone this repository to your local machine
