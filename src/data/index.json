@@ -30,9 +30,10 @@
       "id": "1",
       "src": "./img/p1.png",
       "title": "Fit-Ledger",
-      "description": "Fitness and health tracker developed using React.js, Firebase, and Material UI components.",
+      "description": "Fitness and health tracker developed using React.js, Firebase, and React-Bootstrap components.",
       "link": "https://github.com/MarcusKyung/FitLedger",
-      "live": "https://fit-ledger.web.app/"
+      "live": "https://fit-ledger.web.app/",
+      "technologies": "React.js, Firebase, Victory, CSS, React-Bootstrap"
     },
     {
       "id": "2",
@@ -40,8 +41,8 @@
       "title": "BrewFinder",
       "description": "Chrome extension that locates nearest beer on tap to user. Also allows for search by city using the OpenBreweryDB API.",
       "link": "https://github.com/MarcusKyung/brewfinder-extension",
-      "live": "https://chrome.google.com/webstore/detail/brewfinder/fkpeaflfbnlccciohmbeejiihnmkkcjm/"
-
+      "live": "https://chrome.google.com/webstore/detail/brewfinder/fkpeaflfbnlccciohmbeejiihnmkkcjm/",
+      "technologies": "JavaScript, HTML, CSS"
     },
     {
       "id": "3",
@@ -49,7 +50,8 @@
       "title": "MarcusKyung.com",
       "description": "This website, a personal portfolio developed using React.js, CSS, Email.js, and published on Netlify.",
       "link": "https://github.com/MarcusKyung/portfolio-v2",
-      "live": "MarcusKyung.com"
+      "live": "/",
+      "technologies": "React.js, CSS, Email.js, Netlify"
     }
   ],
   "portfolio2": [
@@ -59,21 +61,23 @@
       "title": "C# TwitterBot",
       "description": "Collaboratively developed C# twitterbot designed to tweet Gandalf's quotes from Lord of the Rings.",
       "link": "https://github.com/MarcusKyung/FitLedger",
-      "live": "https://fit-ledger.web.app/"
+      "technologies": "C#, Tweetinvi, RestSharp"
     },
     {
       "id": "2",
       "src": "./img/p6.png",
       "title": "F1 API",
       "description": "A C# full CRUD Formula 1 themed API with information on 2023 drivers and teams.",
-      "link": "https://github.com/MarcusKyung/brewfinder-extension"
+      "link": "https://github.com/MarcusKyung/F1DriverAPI.Solution",
+      "technologies": "C#/.NET, MySQL, Entity Framework, Swagger, ASP.NET Core"
     },
     {
       "id": "3",
       "src": "./img/p5.png",
       "title": "Discord Bot",
       "description": "A Valtteri Bottas themed discord bot designed to interact with users when prompted.",
-      "link": "https://github.com/MarcusKyung/Valtteri-BOTtas"
+      "link": "https://github.com/MarcusKyung/Valtteri-BOTtas",
+      "technologies": "JavaScript, Discord.js"
     }
   ],
   "experience": [
