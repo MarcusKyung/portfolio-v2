@@ -79,7 +79,7 @@ export default function MyPortfolio() {
                     </button>
                   </a>
                 </p>
-                <p className="text-sm portfolio--link">
+                {/* <p className="text-sm portfolio--link">
                   <a href={item.live} target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-primary">
                       View Live Site
@@ -89,7 +89,7 @@ export default function MyPortfolio() {
                       </svg>
                     </button>
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
