@@ -420,6 +420,7 @@ h3 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  text-decoration: underline;
 }
 .portfolio--link {
   text-decoration: none;

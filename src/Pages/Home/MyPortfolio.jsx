@@ -27,6 +27,8 @@ export default function MyPortfolio() {
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
+                <br />
+                <p className="text-md"><strong>{item.technologies}</strong></p>
               </div>
               <div className="link--container">
                 <p className="text-sm portfolio--link">
@@ -66,6 +68,8 @@ export default function MyPortfolio() {
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
+                <br />
+                <p className="text-md"><strong>{item.technologies}</strong></p>
               </div>
               <div className="link--container">
                 <p className="text-sm portfolio--link">
