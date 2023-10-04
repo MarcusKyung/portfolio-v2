@@ -1,5 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 export default function ContactMe() {
 
@@ -7,12 +10,37 @@ export default function ContactMe() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_4s64ztb', 'contact_form', form.current, 'FB9gmJn6k-wb7HmH9')
       .then((result) => {
           console.log(result.text);
+          console.log("Thanks for submitting your message!")
+          
+          toast.info('Message submitted!', {
+            position: "bottom-right",
+            autoClose: 6000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+      
       }, (error) => {
           console.log(error.text);
+          console.log("There was an error submitting your message. Please try again later.")
+          
+          toast.error('Something went wrong', {
+            position: "bottom-right",
+            autoClose: 6000,
+            icon: false,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
       });
   };
 
@@ -49,6 +77,10 @@ export default function ContactMe() {
           <button value="Send" type="submit" className="btn btn-primary contact--form--btn">Submit</button>
         </div>
       </form>
+
+      <div>
+        <ToastContainer/>
+      </div>
     </section>
   )
 }
