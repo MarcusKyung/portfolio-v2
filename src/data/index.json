@@ -80,6 +80,24 @@
       "technologies": "JavaScript, Discord.js"
     }
   ],
+  "portfolio3": [
+    {
+      "id": "1",
+      "src": "./img/p4.png",
+      "title": "|RecipeBox|",
+      "description": "Recipe recipe tracker developed using C#, MySQL, Entity Framework, and ASP.NET Core. Allows users to create recipes and associate them with cuisine tags and ingredient tags.",
+      "link": "https://github.com/MarcusKyung/RecipeBox2.Solution",
+      "technologies": "C#, CSS, MS Identity, EF Core, MySQL, ASP.NET Core"
+    },
+    {
+      "id": "2",
+      "src": "./img/p6.png",
+      "title": "F1 API",
+      "description": "Command line interface (CLI) application that allows users to encrypt and decrypt messages using a Caesar Cipher.",
+      "link": "https://github.com/MarcusKyung/cli-clack-cypher",
+      "technologies": "JavaScript, Clack, Picocolors, NPM"
+    }
+  ],
   "experience": [
     {
       "id": "1",

@@ -435,6 +435,11 @@ h3 {
   stroke: var(--primary);
 } */
 
+.accordion-btn {
+  display: flex;
+  flex-direction: column;
+}
+
 .link--container {
   display: flex;
   gap: 30px;
