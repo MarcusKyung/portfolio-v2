@@ -5,9 +5,11 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="heroSection">
+          <div>
+            <img src="./img/logo.svg" alt="Logoipsum" />
+          </div>
+        </Link>
         <div className="footer--items">
           <ul>
             <li>
