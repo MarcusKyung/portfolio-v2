@@ -10,19 +10,19 @@
       "id": "2",
       "src": "./img/b.png",
       "title": "Back-End",
-      "description": "C#, Firebase, Node.js, SQL, MongoDB, REST APIs"
+      "description": "C#/.NET, Firebase, Node.js, MySQL, REST APIs"
     },
     {
       "id": "3",
       "src": "./img/c.png",
       "title": "Project Management",
-      "description": "Agile, Scrum, WorkFront, Meeting Management, Budgeting, Scoping"
+      "description": "Budgeting, Meeting Management, WorkFront, Scoping, Risk Analysis"
     },
     {
       "id": "4",
-      "src": "./img/d.png",
-      "title": "Cloud Computing",
-      "description": "AWS Experience, Azure Experience, AWS CCP (pending)"
+      "src": "./img/E.png",
+      "title": "Miscellaneous",
+      "description": "MS Office, Google Suite, SEO, Documentation, Copywriting"
     }
   ],
   "portfolio": [
@@ -75,7 +75,7 @@
       "id": "3",
       "src": "./img/p5.png",
       "title": "Discord Bot",
-      "description": "A Valtteri Bottas themed discord bot designed to interact with users when prompted.",
+      "description": "A Formula 1 themed discord bot designed to interact with users when prompted.",
       "link": "https://github.com/MarcusKyung/Valtteri-BOTtas",
       "technologies": "JavaScript, Discord.js"
     }
@@ -92,7 +92,7 @@
     {
       "id": "2",
       "src": "./img/p6.png",
-      "title": "F1 API",
+      "title": "CLI Cypher",
       "description": "Command line interface (CLI) application that allows users to encrypt and decrypt messages using a Caesar Cipher.",
       "link": "https://github.com/MarcusKyung/cli-clack-cypher",
       "technologies": "JavaScript, Clack, Picocolors, NPM"
