@@ -12,7 +12,7 @@ export default function HeroSection() {
             <span className="hero--section-title--color typewriter--effect">
             <Typewriter
               options={{
-                strings: ['> Front End Developer.', '> Project Manager.'],
+                strings: ['Front End Developer', 'Project Manager'],
                 autoStart: true,
                 pauseFor: 3000,
                 loop: true,
