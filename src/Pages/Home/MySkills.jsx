@@ -51,7 +51,7 @@ export default function MySkills() {
       </div> 
       <div className="github--graph-center">
         <div>
-          <GitHubCalendar showWeekdayLabels="true" transformData={selectLastHalfYear} theme={explicitTheme} username="marcuskyung" renderBlock={(block, activity) => React.cloneElement(block, {'data-tooltip-id': 'react-tooltip', 'data-tooltip-html': `${activity.count} activities on ${activity.date}`,})}/>
+          <GitHubCalendar labels={{totalCount: '{{count}} Activities in last 9 months'}} showWeekdayLabels="true" transformData={selectLastHalfYear} theme={explicitTheme} username="marcuskyung" renderBlock={(block, activity) => React.cloneElement(block, {'data-tooltip-id': 'react-tooltip', 'data-tooltip-html': `${activity.count} activities on ${activity.date}`,})}/>
           <ReactTooltip id="react-tooltip" />
         </div>
       </div>
