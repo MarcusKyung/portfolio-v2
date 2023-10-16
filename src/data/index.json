@@ -102,30 +102,49 @@
     {
       "id": "1",
       "src": "./img/1.png",
-      "description": "Utilized a suite of data analytics tools to design and implment long term SEO campaigns for small to midsize eCommerce clients, achieving up to triple digit site traffic gains. Collaborated daily with PMs, management, and senior analysts to track and report site metrics to clients.",
+      "description1": "• Designed and implemented long term search engine optimization campaigns for up to 25+ clients across various industries with up to triple digit site traffic gains",
+      "description2": "• Collaborated daily with project managers, senior analysts, and management to track and report site traffic, issues, revenue, and other relevant KPI data to client",
+      "description3": "• Created, edited, and implemented content across client sites to include blogs, product pages, metadata, etc.",
+      "description4": "• Utilized a suite of data analytics tools including Keyword Planner, Google Analytics, Brightedge, and other in-house proprietary softwares to drive targeted traffic and increase client revenue",
       "company_name": "Radd Interactive",
-      "title": "Content Writer Intern > Advanced SEO Analyst"
+      "title": "Content Writer Intern > Advanced SEO Analyst",
+      "range": "July 2017 to January 2019"
     },
     {
       "id": "2",
       "src": "./img/2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description1": "• Drove $1MM+ in total revenue including 7x growth in eCommerce sales during FY21 through data driven SEO, product development, and coordinated email/social media marketing campaigns",
+      "description2": "• Developed, trialed, and implemented 9+ SOPs resulting in increased organizational efficiency and profitability, while simultaneously reducing operating error rates and business unit overhead spend",
+      "description3": "• Sourced/designed products and negotiated $750K+ in production/purchasing contracts in strict legal compliance with Federal/USMC TMLO protocols and guidelines",
+      "description4": "• Increased Foundation marketing reach and brand awareness through integrated marketing campaigns including print, digital, social media, email, web development, and direct mail",
+      "description5": "• Liaised daily with Foundation executive leadership, Board of Directors, and Federal/Depot personnel as needed, also managed team of 4 direct reports and 10+ volunteers",
       "company_name": "MCRD Museum Foundation",
-      "title": "Marketing Director"
+      "title": "Marketing Director",
+      "range": "January 2019 to March 2022"
     },
     {
       "id": "3",
       "src": "./img/3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description1": "• Successfully managed all project budgets, timelines, and internal/external communications for a range of digital marketing and data analytics projects and retainers totaling $1MM+ in total billings",
+      "description2": "• Effectively planned, managed, and led internal/external team meetings and communicated project progress and issues as a primary point of client contact",
+      "description3": "• Utilized internal software and processes to track and report holistic program health, risks, profitability, and other KPIs",
+      "description4": "• Supported the development of new business through scoping, estimating, and development of project plans",
+      "description5": "• Achieved NPS (Net Promoter Score) rating of 10 from key agency client",
       "company_name": "Red Door Interactive",
-      "title": "Client Services Associate > Producer"
+      "title": "Client Services Associate > Producer",
+      "range": "March 2022 to February 2023"
     },
     {
       "id": "4",
       "src": "./img/4.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description1": "• Designed and implemented critical application features utilizing React.js, Material UI, and Firebase",
+      "description2": "• Reviewed codebase for bugs, cataloged findings, and developed necessary code fixes where applicable",
+      "description3": "• Utilized Git feature workflow to facilitate cooperative application development and review peer written code",
+      "description4": "• Ideated and proposed potential new features to enhance user experience and expand application capabilities",
+      "description5": "• Participated in regular team stand-ups to share progress updates/roadblocks with larger team and management",
       "company_name": "Opine",
-      "title": "Software Engineering Intern (Current)"
+      "title": "Software Engineering Intern (Current)",
+      "range": "August 2023 to Present"
     }
   ],
   "education": [
