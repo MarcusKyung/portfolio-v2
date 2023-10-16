@@ -35,10 +35,10 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-      <Link spy={true} smooth={true} offset={-70} duration={500} to="heroSection">
-        <img src="./img/logo.svg" alt="Logoipsum" />
-      </Link>
+      <div className="navIcon"> 
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="heroSection">
+          <img src="./img/logo.svg" alt="Logoipsum" />
+        </Link>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
