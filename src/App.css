@@ -175,9 +175,28 @@ h3 {
 
 /* Navbar Styling */
 
-.navIcon {
-  margin-left: 9px;
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    justify-content: center; /* Center the contents horizontally */
+  }
+
+  .navbar--items {
+    display: none; /* Hide the navigation items initially */
+    position: absolute;
+    background-color: var(--white);
+    top: 70px;
+    left: 0;
+    width: 100%;
+    flex-direction: column; /* Stack the navigation items vertically */
+    align-items: center; /* Center items horizontally */
+    z-index: 999; /* Bring the navigation items to the top */
+  }
+
+  .navbar--items.active {
+    display: flex; /* Show the navigation items when the menu is active */
+  }
 }
+
 
 .navbar {
   display: flex;
