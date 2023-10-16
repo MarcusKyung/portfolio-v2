@@ -1,11 +1,27 @@
 import data from "../../data/index.json";
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 
 export default function Experience() {
+  const [open, setOpen] = useState(false);
+  const [selectedExperience, setSelectedExperience] = useState(null);
+
+  const onOpenModal = (experience) => {
+    setSelectedExperience(experience);
+    setOpen(true);
+  };
+
+  const onCloseModal = () => {
+    setSelectedExperience(null);
+    setOpen(false);
+  };
+
   return (
     <section className="Experience--section" id="Experience">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          {/* <p className="sub--title">September 2023</p> */}
           <h2 className="sections--heading">Experience & Education</h2>
         </div>
         <div>
@@ -15,9 +31,23 @@ export default function Experience() {
         </div>
       </div>
 
+      {selectedExperience && (
+        <Modal open={open} onClose={onCloseModal} center>
+          <h2 id="selectedExperienceCompany"><strong>{selectedExperience.company_name}</strong></h2>
+          <h3 id="selectedExperienceTitle">{selectedExperience.title} - {selectedExperience.range}</h3>
+          <hr />
+          <p class="experienceDetails">{selectedExperience.description1}</p>
+          <p class="experienceDetails">{selectedExperience.description2}</p>
+          <p class="experienceDetails">{selectedExperience.description3}</p>
+          <p class="experienceDetails">{selectedExperience.description4}</p>
+          <p class="experienceDetails">{selectedExperience.description5}</p>
+          <hr />
+        </Modal>
+      )}
+
       <div className="portfolio--section--container">
         {data?.experience?.map((item, index) => (
-          <div key={index} className="Experience--section--card">
+          <div key={index} className="Experience--section--card" onClick={() => onOpenModal(item)}>
             <div className="Experience--section--card--author--detail">
               <img src={item.src} alt="Avatar"/>
               <div>
@@ -29,16 +59,10 @@ export default function Experience() {
                 </p>
               </div>
             </div>
-            {/* <div className="experience--description-container">
-              {item.description.split('\n').map((text, idx) => (
-                <p className="text-md" key={idx}>
-                  {text}
-                </p>
-              ))}
-            </div> */}
           </div>
         ))}
       </div>
+
       <div className="portfolio--section--container">
         {data?.education?.map((item, index) => (
           <div key={index} className="Experience--section--card">

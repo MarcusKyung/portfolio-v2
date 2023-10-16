@@ -460,6 +460,23 @@ a:-webkit-any-link {
 /* Portfolio Ends */
 
 /* Experience Styling Start */
+#selectedExperienceCompany {
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+#selectedExperienceCompany:hover {
+  color: var(--primary)
+}
+
+.experienceDetails {
+  margin-bottom: 3px;
+}
+
+#selectedExperienceTitle {
+  font-style: italic;
+}
+
 .Experience--section {
   display: flex;
   padding: 112px 84.3px;
