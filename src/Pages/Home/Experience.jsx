@@ -32,7 +32,13 @@ export default function Experience() {
       </div>
 
       {selectedExperience && (
-        <Modal open={open} onClose={onCloseModal} center>
+        <Modal open={open} onClose={onCloseModal} center classNames={{
+          overlayAnimationIn: 'customEnterOverlayAnimation',
+          overlayAnimationOut: 'customLeaveOverlayAnimation',
+          modalAnimationIn: 'customEnterModalAnimation',
+          modalAnimationOut: 'customLeaveModalAnimation',
+        }}
+        animationDuration={800}>
           <h2 id="selectedExperienceCompany"><strong>{selectedExperience.company_name}</strong></h2>
           <h3 id="selectedExperienceTitle">{selectedExperience.title} - {selectedExperience.range}</h3>
           <hr />
