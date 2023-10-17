@@ -22,7 +22,7 @@ export default function Experience() {
     <section className="Experience--section" id="Experience">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="sections--heading">Experience & Education</h2>
+          <h2 className="sections--heading"> Work Experience</h2>
         </div>
         <div>
           <a href="https://drive.google.com/file/d/1NxczOcIaxBOPZoU7-9yaYqrhq_ernkZd/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
@@ -67,6 +67,12 @@ export default function Experience() {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="portfolio--container-box">
+        <div className="portfolio--container">
+          <h2 className="sections--heading">Education</h2>
+        </div>
       </div>
 
       <div className="portfolio--section--container">

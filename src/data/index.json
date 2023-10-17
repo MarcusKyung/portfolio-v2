@@ -168,6 +168,13 @@
       "company_name": "edX/Harvard University (2023)",
       "title": "CS50 Online",
       "description": "Working through Harvard's free online CS50 introduction to programming course. Currently learning about data structures and algorithms and writing code in C."
+    },
+    {
+      "id": "4",
+      "src": "./img/10.png",
+      "company_name": "The Odin Project (2023)",
+      "title": "Full Stack JavaScript Track",
+      "description": "Working through The Odin Project, a free and open source full stack development course covering topics including advanced JavaScript, Node.js, and React.js."
     }
   ]
 }
