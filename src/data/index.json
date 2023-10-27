@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/a.png",
       "title": "Front-End",
-      "description": "JavaScript, React.js, HTML, Bootstrap, MUI, CSS, SASS"
+      "description": "JavaScript, Next.js React.js, HTML, CSS, Bootstrap, MUI, SASS, Styled Components"
     },
     {
       "id": "2",
       "src": "./img/b.png",
       "title": "Back-End",
-      "description": "C#/.NET, Firebase, Node.js, MySQL, REST APIs"
+      "description": "C#/.NET, Firebase, Express.js, Node.js, MySQL, REST API Development "
     },
     {
       "id": "3",
       "src": "./img/c.png",
       "title": "Project Management",
-      "description": "Budgeting, Meeting Management, WorkFront, Scoping, Risk Analysis"
+      "description": "Budget/Risk Analysis, Scoping, Meeting Management, Jira, Confluence, WorkFront"
     },
     {
       "id": "4",
       "src": "./img/E.png",
       "title": "Miscellaneous",
-      "description": "MS Office, Google Suite, SEO, Documentation, Copywriting"
+      "description": "MS Office, Google Suite, SEO, Documentation, Copywriting, eCommerce Management "
     }
   ],
   "portfolio": [
