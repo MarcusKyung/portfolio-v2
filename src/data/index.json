@@ -2,27 +2,27 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/a.png",
-      "title": "Front-End",
-      "description": "JavaScript, Next.js React.js, HTML, CSS, Bootstrap, MUI, SASS, Styled Components"
+      "src": "./img/pl.png",
+      "title": "Programming Languages",
+      "description": "JavaScript, C#, SQL (MySQL), HTML 5, CSS/SASS, Python (beginner)"
     },
     {
       "id": "2",
-      "src": "./img/b.png",
-      "title": "Back-End",
-      "description": "C#/.NET, Firebase, Express.js, Node.js, MySQL, REST API Development "
+      "src": "./img/fl.png",
+      "title": "Frameworks & Libraries",
+      "description": "React.js, Redux, Node.js, Express.js, Electron.js, Victory Charts, D3, Material UI, .NET"
     },
     {
       "id": "3",
-      "src": "./img/c.png",
-      "title": "Project Management",
-      "description": "Budget/Risk Analysis, Scoping, Meeting Management, Jira, Confluence, WorkFront"
+      "src": "./img/tt.png",
+      "title": "Tools & Technologies",
+      "description": "Firebase, AWS, Git/GitHub, Jest, Docsify, Postman, Netlify, VS Code"
     },
     {
       "id": "4",
-      "src": "./img/E.png",
-      "title": "Miscellaneous",
-      "description": "MS Office, Google Suite, SEO, Documentation, Copywriting, eCommerce Management "
+      "src": "./img/pm.png",
+      "title": "Project Management",
+      "description": "Jira, Confluence, Adobe WorkFront, ClickUp, MS SharePoint/Office, Google Workspace"
     }
   ],
   "portfolio": [
